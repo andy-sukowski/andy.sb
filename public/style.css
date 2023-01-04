@@ -1,0 +1,6 @@
+@import "syntax.css";
+
+blockquote, p, ul {
+	text-align: justify;
+	hyphens: auto;
+}
