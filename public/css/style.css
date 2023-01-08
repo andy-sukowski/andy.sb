@@ -16,7 +16,7 @@ body.dark-theme {
   --background: #2f2f2f;
   --background-secondary: #282828;
   --header: #282828;
-  --color: #b0b0b0;
+  --color: #bcb4a5;
   --color-secondary: #7c7c7c;
   --border-color: #4f4f4f; }
 
@@ -33,12 +33,12 @@ body.dark-theme {
 @media (prefers-color-scheme: dark) {
   body:not(.light-theme) {
     /* dark theme colors */
-    --background: #292a2d;
-    --background-secondary: #3b3d42;
-    --header: #252627;
-    --color: #a9a9b3;
-    --color-secondary: #73747b;
-    --border-color: #4a4b50; } }
+    --background: #2f2f2f;
+    --background-secondary: #282828;
+    --header: #282828;
+    --color: #bcb4a5;
+    --color-secondary: #7c7c7c;
+    --border-color: #4f4f4f; } }
 
 /* MEDIA QUERIES */
 /* HOW TO USE */

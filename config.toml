@@ -25,8 +25,8 @@ paginate = 5
     lineNos = false
     lineNumbersInTable = true
     noClasses = false
-    noHl = true
-    style = 'github-dark'
+    noHl = false
+    #style = 'github-dark'
     tabWidth = 4
 
 [languages]
@@ -48,10 +48,6 @@ paginate = 5
     [languages.en.params.logo]
       logoText = "cd ~/"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -59,6 +55,34 @@ paginate = 5
         name = "Blog"
         url = "/posts"
       [[languages.en.menu.main]]
+        identifier = "pgp"
+        name = "PGP"
+        url = "/pgp"
+  [languages.de]
+    title = "Andy Sukowski-Bang"
+    subtitle = "Student & Programmierer"
+    keywords = ""
+    copyright = ""
+    menuMore = "Mehr anzeigen"
+    writtenBy = "Geschrieben von"
+    readMore = "Weiterlesen"
+    readOtherPosts = "Andere Beiträge lesen"
+    newerPosts = "Neuere Beiträge"
+    olderPosts = "Ältere Beiträge"
+    minuteReadingTime = "Minuten"
+    dateFormatSingle = "02.01.2006"
+    dateFormatList = "02.01.2006"
+
+    [languages.de.params.logo]
+      logoText = "cd ~/"
+      logoHomeLink = "/"
+
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts"
+      [[languages.de.menu.main]]
         identifier = "pgp"
         name = "PGP"
         url = "/pgp"
