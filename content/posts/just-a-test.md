@@ -3,18 +3,18 @@ title: "Just a Test"
 date: 2022-12-28T18:59:36+01:00
 author: "Andy Sukowski-Bang"
 description: "I'm just testing some features and tweaking the theme according to my personal preferences. My goal is to slightly adjust the colors to match the Gruvbox Material color scheme."
+math: true
 ---
 
-I'm just testing some features and tweaking the theme according
-to my personal preferences. My goal is to slightly adjust the
-colors to match the [Gruvbox Material][2] color scheme.
+I'm just testing some features and tweaking the theme according to my personal
+preferences. My goal is to slightly adjust the colors to match the [Gruvbox
+Material][2] color scheme.
 
 ## Some syntax highlighting
 
-The following function, written in the [C programming
-language][1], checks for divisibility by previously found prime
-numbers stored in `*primes` up to the square root to determine
-whether `n` is itself a prime number.
+The following function, written in the [C programming language][1], checks for
+divisibility by previously found prime numbers stored in `*primes` up to the
+square root to determine whether `n` is itself a prime number.
 
 ```c 
 /* check against previous primes */
@@ -29,9 +29,8 @@ bool is_prime(int n, int *primes)
 }
 ```
 
-The above function can then be used to entirely fill `*primes`
-with `count` prime numbers. The function `get_primes()` returns
-a pointer to the array.
+The above function can then be used to entirely fill `*primes` with `count`
+prime numbers. The function `get_primes()` returns a pointer to the array.
 
 ```c
 /* return list of prime numbers */
@@ -51,6 +50,14 @@ int *get_primes(int count)
 	return primes;
 }
 ```
+
+## Math with KaTeX
+
+Testing inline $a^2 + b^2 = c^2$ maths. Yeees, it finally works!
+
+[KaTeX](katex.org) is the _fastest_ math typesetting libreary for the web. The JavaScript library renders its math synchronously and doesn't need to reflow the page.
+
+$$ \sum_{i = 0}^n i = \frac{n (n + 1)}{2} = \frac{n^2 + n}{2} $$
 
 ## Other stuff
 

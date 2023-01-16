@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The C Programming Language on Andy Sukowski-Bang</title>
+    
+    
+    
+    <link>/posts/c/</link>
+    <description>Recent content in The C Programming Language on Andy Sukowski-Bang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2023 19:14:19 +0100</lastBuildDate>
+    
+	<atom:link href="/posts/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Datatypes</title>
+      <link>/posts/c/datatypes/</link>
+      <pubDate>Thu, 05 Jan 2023 19:20:31 +0100</pubDate>
+      
+      <guid>/posts/c/datatypes/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>`if`...`else` statements</title>
+      <link>/posts/c/if-else/</link>
+      <pubDate>Sat, 07 Jan 2023 22:36:58 +0100</pubDate>
+      
+      <guid>/posts/c/if-else/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          An `if` statement can be followed by an optional else statement, which executes when the Boolean expression is false.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

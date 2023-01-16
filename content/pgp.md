@@ -3,7 +3,9 @@ title: "My public PGP key"
 date: 2022-12-28T19:41:53+01:00
 ---
 
-This is my public PGP key for the email address `contact@andy-sb.com`. If you want to contact me privately, encrypt your message with the public key and I will be the only person able to decrypt it using my private key.
+This is my public PGP key for the email address `contact@andy-sb.com`. If you
+want to contact me privately, encrypt your message with the public key and I
+will be the only person able to decrypt it using my private key.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

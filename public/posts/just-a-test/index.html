@@ -60,11 +60,33 @@ Some syntax highlighting # The following function, written in the C programming 
 
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+				{left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
+
 
 
 
   </head>
-  <body class="light-theme">
+  <body class="dark-theme">
     <div class="container">
       <header class="header">
   <span class="header__inner">
@@ -178,17 +200,16 @@ Some syntax highlighting # The following function, written in the C programming 
 
     <div class="post-content">
       
-      <p>I&rsquo;m just testing some features and tweaking the theme according
-to my personal preferences. My goal is to slightly adjust the
-colors to match the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Material</a> color scheme.</p>
+      <p>I&rsquo;m just testing some features and tweaking the theme according to my personal
+preferences. My goal is to slightly adjust the colors to match the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox
+Material</a> color scheme.</p>
 <h2 id="some-syntax-highlighting">
   Some syntax highlighting
   <a href="#some-syntax-highlighting" class="h-anchor" aria-hidden="true">#</a>
 </h2>
-<p>The following function, written in the <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C programming
-language</a>, checks for divisibility by previously found prime
-numbers stored in <code>*primes</code> up to the square root to determine
-whether <code>n</code> is itself a prime number.</p>
+<p>The following function, written in the <a href="https://en.wikipedia.org/wiki/C_(programming_language)">C programming language</a>, checks for
+divisibility by previously found prime numbers stored in <code>*primes</code> up to the
+square root to determine whether <code>n</code> is itself a prime number.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cm">/* check against previous primes */</span>
 </span></span><span class="line"><span class="cl"><span class="kt">bool</span> <span class="nf">is_prime</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="o">*</span><span class="n">primes</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
@@ -199,9 +220,8 @@ whether <code>n</code> is itself a prime number.</p>
 </span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>The above function can then be used to entirely fill <code>*primes</code>
-with <code>count</code> prime numbers. The function <code>get_primes()</code> returns
-a pointer to the array.</p>
+</span></span></code></pre></div><p>The above function can then be used to entirely fill <code>*primes</code> with <code>count</code>
+prime numbers. The function <code>get_primes()</code> returns a pointer to the array.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cm">/* return list of prime numbers */</span>
 </span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="o">*</span><span class="nf">get_primes</span><span class="p">(</span><span class="kt">int</span> <span class="n">count</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
@@ -218,7 +238,14 @@ a pointer to the array.</p>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">primes</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h2 id="other-stuff">
+</span></span></code></pre></div><h2 id="math-with-katex">
+  Math with KaTeX
+  <a href="#math-with-katex" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Testing inline $a^2 + b^2 = c^2$ maths. Yeees, it finally works!</p>
+<p><a href="katex.org">KaTeX</a> is the <em>fastest</em> math typesetting libreary for the web. The JavaScript library renders its math synchronously and doesn&rsquo;t need to reflow the page.</p>
+<p>$$ \sum_{i = 0}^n i = \frac{n (n + 1)}{2} = \frac{n^2 + n}{2} $$</p>
+<h2 id="other-stuff">
   Other stuff
   <a href="#other-stuff" class="h-anchor" aria-hidden="true">#</a>
 </h2>

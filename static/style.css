@@ -1,6 +1,6 @@
 @import "syntax.css";
 
-blockquote, p, ul {
+blockquote, p, ul, .post-content {
 	text-align: justify;
 	hyphens: auto;
 }
@@ -9,8 +9,19 @@ pre {
 	background-color: var(--background-secondary);
 }
 
-code {
+code, kbd {
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 0.9em;
+	font-weight: inherit;
+}
+
+.pagination__buttons code {
+	padding: 0;
+	background: none;
+}
+
+table:not(.js-file-line-container) {
+	table-layout: auto;
 }
 
 .header {

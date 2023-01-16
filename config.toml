@@ -7,13 +7,16 @@ paginate = 5
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
-  defaultTheme = "light"
+  defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
   # Enable to show reading time in minutes for posts
   showReadingTime = false
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     anchorLineNos = true
     codeFences = true
@@ -23,7 +26,7 @@ paginate = 5
     lineAnchors = ''
     lineNoStart = 1
     lineNos = false
-    lineNumbersInTable = true
+    lineNumbersInTable = false
     noClasses = false
     noHl = false
     #style = 'github-dark'
@@ -31,6 +34,7 @@ paginate = 5
 
 [languages]
   [languages.en]
+    languageName = "English"
     title = "Andy Sukowski-Bang"
     subtitle = "Student & Programmer"
     keywords = ""
@@ -55,34 +59,6 @@ paginate = 5
         name = "Blog"
         url = "/posts"
       [[languages.en.menu.main]]
-        identifier = "pgp"
-        name = "PGP"
-        url = "/pgp"
-  [languages.de]
-    title = "Andy Sukowski-Bang"
-    subtitle = "Student & Programmierer"
-    keywords = ""
-    copyright = ""
-    menuMore = "Mehr anzeigen"
-    writtenBy = "Geschrieben von"
-    readMore = "Weiterlesen"
-    readOtherPosts = "Andere Beiträge lesen"
-    newerPosts = "Neuere Beiträge"
-    olderPosts = "Ältere Beiträge"
-    minuteReadingTime = "Minuten"
-    dateFormatSingle = "02.01.2006"
-    dateFormatList = "02.01.2006"
-
-    [languages.de.params.logo]
-      logoText = "cd ~/"
-      logoHomeLink = "/"
-
-    [languages.de.menu]
-      [[languages.de.menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/posts"
-      [[languages.de.menu.main]]
         identifier = "pgp"
         name = "PGP"
         url = "/pgp"
