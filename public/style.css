@@ -1,6 +1,6 @@
 @import "syntax.css";
 
-blockquote, p, ul, .post-content {
+blockquote, p, ul, .post-content:not(.js-file-line-container) {
 	text-align: justify;
 	hyphens: auto;
 }
@@ -8,6 +8,7 @@ blockquote, p, ul, .post-content {
 pre {
 	background-color: var(--background-secondary);
 	overflow: auto;
+	border-radius: 0;
 }
 
 .line {
@@ -18,6 +19,15 @@ code, kbd {
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 0.9em;
 	font-weight: inherit;
+	hyphens: none;
+}
+
+.pagination__buttons {
+	justify-content: space-between;
+}
+
+.pagination__buttons > *:only-child {
+	margin: 0 auto;
 }
 
 .pagination__buttons code {
@@ -33,4 +43,17 @@ table:not(.js-file-line-container) {
 	position: sticky;
 	top: 0;
 	z-index: 999;
+}
+
+h2 {
+	margin-top: 2rem;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+}
+
+.logo__cursor {
+	margin-left: 6px;
+	width: 8px;
 }

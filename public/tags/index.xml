@@ -9,9 +9,70 @@
     <description>Recent content in Tags on Andy Sukowski-Bang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 28 Dec 2022 18:59:36 +0100</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>another-tag</title>
+      <link>/tags/another-tag/</link>
+      <pubDate>Wed, 28 Dec 2022 18:59:36 +0100</pubDate>
+      
+      <guid>/tags/another-tag/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/tags/test/</link>
+      <pubDate>Wed, 28 Dec 2022 18:59:36 +0100</pubDate>
+      
+      <guid>/tags/test/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>yes-it-works</title>
+      <link>/tags/yes-it-works/</link>
+      <pubDate>Wed, 28 Dec 2022 18:59:36 +0100</pubDate>
+      
+      <guid>/tags/yes-it-works/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
     
   </channel>
 </rss>

@@ -1,6 +1,7 @@
 ---
 title: "Just a Test"
 date: 2022-12-28T18:59:36+01:00
+tags: ["test", "yes-it-works", "another-tag"]
 author: "Andy Sukowski-Bang"
 description: "I'm just testing some features and tweaking the theme according to my personal preferences. My goal is to slightly adjust the colors to match the Gruvbox Material color scheme."
 math: true
