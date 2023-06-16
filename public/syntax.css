@@ -2,6 +2,7 @@
 
 /* ----- GENERAL ----- */
 
+/* Tab Width */                .chroma { -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; }
 /* CodeLine */                 .chroma .cl {  }
 /* LineLink */                 .chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
 /* LineTableTD */              .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }

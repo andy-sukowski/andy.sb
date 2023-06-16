@@ -751,6 +751,9 @@ h4:hover a {
     max-width: 100%; }
     @media (max-width: 900px) {
       .footer__inner {
+        width: 620px; } }
+    @media (max-width: 684px) {
+      .footer__inner {
         flex-direction: column; } }
   .footer a {
     color: inherit; }

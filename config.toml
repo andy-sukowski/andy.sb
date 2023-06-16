@@ -9,9 +9,29 @@ paginate = 5
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
   # Enable to show reading time in minutes for posts
   showReadingTime = false
+
+  # Social icons
+  [[params.social]]
+    name = "email"
+    url  = "mailto:contact@andy-sb.com"
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/andy-sb"
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/andy-sukowski"
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/14947044"
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://mastodon.online/@andy_sb"
+  [[params.social]]
+    name = "spotify"
+    url  = "https://open.spotify.com/user/nosocaxwx7ima5bdi9uelhxga"
 
 [markup]
   [markup.goldmark]
@@ -30,10 +50,9 @@ paginate = 5
     noClasses = false
     noHl = false
     #style = 'github-dark'
-    tabWidth = 4
 
 [languages]
-  [languages.en]
+  [languages.en.params]
     languageName = "English"
     title = "Andy Sukowski-Bang"
     subtitle = "Student & Programmer"
@@ -49,16 +68,20 @@ paginate = 5
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
 
-    [languages.en.params.logo]
+    [params.logo]
       logoText = "cd ~/"
       logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
+    [menu]
+      [[menu.main]]
         identifier = "blog"
         name = "Blog"
         url = "/posts"
-      [[languages.en.menu.main]]
+      [[menu.main]]
         identifier = "pgp"
         name = "PGP"
         url = "/pgp"
+      [[menu.main]]
+        identifier = "xmr"
+        name = "XMR"
+        url = "/xmr"

@@ -102,9 +102,9 @@ DMdsq1JhSkUoF6rWGTYmKSDdVoKBTg==
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
 
-It is also available in [RAW format][2] and can be cross checked with [my PGP
-key on GitLab][3] and the [keys.openpgp.org][4] keyserver. If the fingerprints
-don't match, something is wrong... This is the fingerprint:
+It is also available in RAW format at [andy-sb.com/pgp.txt][2] and can be cross
+checked with [my PGP key on GitLab][3] and the [keys.openpgp.org][4] keyserver.
+If the fingerprints don't match, something is wrong... This is the fingerprint:
 
 ```
 A81D 2A5B 7CC3 7DB5 F14C  A98F 04E1 ED4E BE8C 85EA

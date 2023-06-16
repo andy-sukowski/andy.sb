@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>test on Andy Sukowski-Bang</title>
+    <title>test on </title>
     
     
     
     <link>/tags/test/</link>
-    <description>Recent content in test on Andy Sukowski-Bang</description>
+    <description>Recent content in test on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 28 Dec 2022 18:59:36 +0100</lastBuildDate>
     
 	<atom:link href="/tags/test/index.xml" rel="self" type="application/rss+xml" />
