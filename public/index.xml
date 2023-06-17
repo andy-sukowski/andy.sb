@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>/home/andy on </title>
+    <title>Andy on </title>
     
     
     
     <link>/</link>
-    <description>Recent content in /home/andy on </description>
+    <description>Recent content in Andy on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Dec 2022 19:44:42 +0100</lastBuildDate>
@@ -29,7 +29,7 @@
         
         
           What is Monero? # Monero (XMR) is a decentralized cryptocurrency, prioritizing privacy and anonymity. In contrast to transparent blockchains such as Bitcoin, transaction details like the sender, reciever and transaction amount are obfuscated using stealth addresses, ring signatures and Ring CT.
-Dynamic block sizes ensure low transaction fees, the RandomX proof-of-work algorithm is resistant to ASICs and Tail Emission incentivizes minors, while minimizing inflation (approaching constant 0.6 XMR block reward).
+Dynamic block sizes ensure low transaction fees, the RandomX proof-of-work algorithm is resistant to ASICs, Tail Emission incentivizes mining, while minimizing inflation (approaching constant 0.6 XMR block reward) and the P2Pool sidechain enables decentralized pool mining without fees.
           
         
         </description>

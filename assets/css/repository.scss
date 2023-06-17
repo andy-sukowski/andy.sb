@@ -1,0 +1,46 @@
+.repo + .repo {
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.repo-link {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  text-decoration: none;
+
+  &:hover .repo-name {
+    text-decoration: underline;
+  }
+}
+
+.repo-img {
+  flex: none;
+  border: 1px solid var(--color);
+  background-color: var(--color);
+  border-radius: 0.6rem;
+}
+
+.repo-info {
+  flex: 1;
+  overflow: hidden;
+}
+
+.repo-name {
+  margin: 0;
+  text-align: left;
+}
+
+.repo-desc {
+  margin: 0.15rem 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.link-arrow {
+  flex: none;
+  width: 1.2rem;
+  margin-left: 0.75rem;
+}

@@ -1,4 +1,5 @@
 @import "syntax.css";
+@import "repository.css";
 
 blockquote, p, ul, .post-content:not(.js-file-line-container) {
 	text-align: justify;
