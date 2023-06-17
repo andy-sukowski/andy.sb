@@ -23,9 +23,11 @@ bool is_prime(int n, int *primes)
 {
 	/* only check up to sqrt(n) */
 	int max_test = (int)sqrt(n);
+
 	for (int i = 0; primes[i] <= max_test; ++i)
 		if (n % primes[i] == 0)
 			return false;
+
 	return true;
 }
 ```
@@ -35,18 +37,14 @@ prime numbers. The function `get_primes()` returns a pointer to the array.
 
 ```c
 /* return list of prime numbers */
-int *get_primes(int count)
+int *gen_primes(int count)
 {
 	int *primes = malloc(count * sizeof *primes);
 	primes[0] = 2;
 
-	int i = 1, n = 3;
-	while (i < count) {
-		if (is_prime(n, primes)) {
+	for (int i = 1, n = 3; i < count; ++n)
+		if (is_prime(n, primes))
 			primes[i++] = n;
-		}
-		n = n + 1;
-	}
 
 	return primes;
 }

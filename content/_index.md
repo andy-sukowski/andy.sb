@@ -1,6 +1,7 @@
 ---
-title: "Andy"
+title: "/home/andy"
 date: 2022-12-28T19:44:42+01:00
+description: "I’m Andy Sukowski-Bang, a student from Germany interested in different fields of mathematics and computer science, including machine learning, cryptography and decentralized networking. Starting in October this year, I will pursue a degree in mathematics at the CAU in Kiel. In my free time I go bouldering, play electric guitar or develop software in C, Julia or Haskell (check out my GitLab)."
 ---
 
 I’m Andy Sukowski-Bang, a student from Germany interested in different fields
