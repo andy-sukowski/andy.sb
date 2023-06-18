@@ -1,5 +1,4 @@
 @import "syntax.css";
-@import "repository.css";
 
 blockquote, p, ul, .post-content:not(.js-file-line-container) {
 	text-align: justify;
@@ -10,6 +9,12 @@ pre {
 	background-color: var(--background-secondary);
 	overflow: auto;
 	border-radius: 0;
+	white-space: nowrap;
+	padding: 20px;
+}
+
+pre code {
+	margin-right: 20px;
 }
 
 .line {

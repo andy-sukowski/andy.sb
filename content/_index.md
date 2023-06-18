@@ -15,8 +15,10 @@ GitLab][2]).
 
 ## My Projects
 
-I have uploaded most of my personal projects to [my GitLab][2] and mirrored them
-to [my GitHub][3]. These are my favorite projects:
+I have uploaded most of my personal projects to [my GitLab][2] and mirrored
+them to [my GitHub][3]. These are some of my favorite repositories. If you like
+what you see and are absolutely dying to [send me some Monero (XMR)][4], feel
+free.
 
 {{< repository href="https://gitlab.com/andy-sb/nn" src="/img/repo/nn.webp" name="Neural Network" desc="This is a simple artificial neural network, written in Julia." >}}
 {{< repository href="https://gitlab.com/andy-sb/steg" src="/img/repo/steg.webp" name="Steganography" desc="This is a steganography tool enabling you to conceal any file within a PNG file." >}}
@@ -28,13 +30,14 @@ to [my GitHub][3]. These are my favorite projects:
 A few years ago, I completely wiped Windows from my SSD, replacing it with
 Ubuntu. Over the years, I've distrohopped to Arch, Gentoo (took way too long to
 compile programs) and finally to Void Linux. I've used Gnome, KDE, qtile, i3 and
-now DWM from [suckless.org][4]. My workflow is primarily command-line based, so I
-frequently use Vim, ffmpeg, ImageMagick, [pass][5] and the *nix coreutils.
+now DWM from [suckless.org][5]. My workflow is primarily command-line based, so I
+frequently use Vim, ffmpeg, ImageMagick, [pass][6] and the *nix coreutils.
 
 {{< image src="/img/linux_system.png" alt="Void Linux with DWM, LunarVim, HTOP and neofetch, Gruvbox Material theme" >}}
 
 [1]: https://www.uni-kiel.de
 [2]: https://gitlab.com/andy-sb
 [3]: https://github.com/andy-sukowski
-[4]: https://suckless.org
-[5]: https://www.passwordstore.org/
+[4]: /xmr
+[5]: https://suckless.org
+[6]: https://www.passwordstore.org/
