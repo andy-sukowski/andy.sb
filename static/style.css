@@ -7,13 +7,15 @@ blockquote, p, ul, .post-content:not(.js-file-line-container) {
 
 pre {
 	background-color: var(--background-secondary);
-	overflow: auto;
 	border-radius: 0;
+	overflow: auto;
 	white-space: pre;
 	padding: 20px;
+	padding-right: 0;
 }
 
 pre > code {
+	display: inline-block;
 	margin-right: 20px;
 }
 
