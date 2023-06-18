@@ -1,4 +1,4 @@
-{{ if .Get "src" }}
+{{ if and (.Get "href") (.Get "src") (.Get "name") (.Get "desc") }}
   <div class="repo">
     <a class="repo-link" href="{{ .Get "href" | safeURL }}">
       <img alt="IMG" class="repo-img" src="{{ .Get "src" | safeURL }}" width="58" height="58">

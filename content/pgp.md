@@ -8,8 +8,8 @@ This is my RSA-4096 public PGP key for the email address
 message with the public key and I will be the only person able to decrypt it
 using my private key.
 
-<pre style="height: 28rem; margin: 2rem 0;">
------BEGIN PGP PUBLIC KEY BLOCK-----
+<pre style="height: 28rem; margin: 2rem 0;" tabindex="0">
+<code>-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGF7CGcBEADUTFsJ+cNo+83XyaTDvDyxorljK/e2j5N2YZ5/7qK3Q+7+evyk
 qZUJpSzEJJ9QP3C3CSVu1fzu/T3wgOnufiQ+vfbbpre9YaagRbEQVLKQadYyvX+A
@@ -99,7 +99,7 @@ HWwb+4W2Z6R+EBxKiwzwhQQ+dan4JaS0yC8ydX08RGZ3pEZDm+Othn+gXBKSCUoy
 NIbTkN1xAHYmKcyuLntRROflbIqgyvN8jXCV6jCL7hsd5JI4RIf258HcuX4k+2dV
 DMdsq1JhSkUoF6rWGTYmKSDdVoKBTg==
 =bUUo
------END PGP PUBLIC KEY BLOCK-----
+-----END PGP PUBLIC KEY BLOCK-----</code>
 </pre>
 
 It is also available in RAW format at [andy-sb.com/pgp.txt][2] and can be cross

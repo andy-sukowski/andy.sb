@@ -9,11 +9,11 @@ pre {
 	background-color: var(--background-secondary);
 	overflow: auto;
 	border-radius: 0;
-	white-space: nowrap;
+	white-space: pre;
 	padding: 20px;
 }
 
-pre code {
+pre > code {
 	margin-right: 20px;
 }
 
