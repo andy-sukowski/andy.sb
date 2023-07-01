@@ -36,7 +36,7 @@ frequently use Neovim, ffmpeg, ImageMagick, GnuPG, [pass][7] and the *nix coreut
 {{< image src="/img/linux_system.png" alt="Void Linux with DWM, LunarVim, HTOP and neofetch, Gruvbox Material theme" >}}
 
 [1]: https://www.uni-kiel.de
-[2]: /resume.pdf
+[2]: /cv.pdf
 [3]: https://gitlab.com/andy-sb
 [4]: https://github.com/andy-sukowski
 [5]: /xmr

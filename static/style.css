@@ -5,11 +5,16 @@ blockquote, p, ul, .post-content:not(.js-file-line-container) {
 	hyphens: auto;
 }
 
+ul {
+	margin-left: 20px;
+}
+
 pre {
 	background-color: var(--background-secondary);
 	border-radius: 0;
 	overflow: auto;
 	white-space: pre;
+	margin: 16px 0;
 	padding: 20px;
 	padding-right: 0;
 }
@@ -53,8 +58,8 @@ table:not(.js-file-line-container) {
 	z-index: 999;
 }
 
-h2 {
-	margin-top: 2rem;
+h1, h2, h3, h4, h5, h6 {
+	margin-top: calc(2.5rem + 0.5em);
 }
 
 .menu a:hover {

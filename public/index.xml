@@ -15,6 +15,26 @@
     
     
     <item>
+      <title>Networking cheat sheet</title>
+      <link>https://andy-sb.com/posts/networking/</link>
+      <pubDate>Sat, 01 Jul 2023 21:18:16 +0200</pubDate>
+      
+      <guid>https://andy-sb.com/posts/networking/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          This cheat sheet is based on Beej&#39;s Guide to Network Programming and summarizes the basics of network programming in C using `&lt;sys/socket.h&gt;`.
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>My XMR address</title>
       <link>https://andy-sb.com/xmr/</link>
       <pubDate>Fri, 16 Jun 2023 19:43:54 +0200</pubDate>
@@ -51,26 +71,6 @@ Dynamic block sizes ensure low transaction fees, the RandomX proof-of-work algor
         
           This is my RSA-4096 public PGP key for the email address contact@andy-sb.com. If you want to contact me privately, encrypt your message with the public key and I will be the only person able to decrypt it using my private key.
 -----BEGIN PGP PUBLIC KEY BLOCK----- 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 DMdsq1JhSkUoF6rWGTYmKSDdVoKBTg== =bUUo -----END PGP PUBLIC KEY BLOCK----- It is also available in RAW format at andy-sb.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Just a Test</title>
-      <link>https://andy-sb.com/posts/just-a-test/</link>
-      <pubDate>Wed, 28 Dec 2022 18:59:36 +0100</pubDate>
-      
-      <guid>https://andy-sb.com/posts/just-a-test/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          I&#39;m just testing some features and tweaking the theme according to my personal preferences. My goal is to slightly adjust the colors to match the Gruvbox Material color scheme.
           
         
         </description>

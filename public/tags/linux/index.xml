@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Blog Posts on </title>
+    <title>linux on </title>
     
     
     
-    <link>https://andy-sb.com/posts/</link>
-    <description>Recent content in My Blog Posts on </description>
+    <link>https://andy-sb.com/tags/linux/</link>
+    <description>Recent content in linux on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Dec 2022 19:45:04 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jul 2023 21:18:16 +0200</lastBuildDate>
     
-	<atom:link href="https://andy-sb.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andy-sb.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
