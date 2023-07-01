@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/xmr/</loc>
+    <loc>https://andy-sb.com/xmr/</loc>
     <lastmod>2023-06-16T19:43:54+02:00</lastmod>
   </url><url>
-    <loc>/pgp/</loc>
+    <loc>https://andy-sb.com/pgp/</loc>
     <lastmod>2023-05-23T16:07:53+01:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://andy-sb.com/posts/</loc>
     <lastmod>2022-12-28T19:45:04+01:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://andy-sb.com/</loc>
     <lastmod>2022-12-28T19:44:42+01:00</lastmod>
   </url><url>
-    <loc>/tags/another-tag/</loc>
+    <loc>https://andy-sb.com/tags/another-tag/</loc>
     <lastmod>2022-12-28T18:59:36+01:00</lastmod>
   </url><url>
-    <loc>/posts/just-a-test/</loc>
+    <loc>https://andy-sb.com/posts/just-a-test/</loc>
     <lastmod>2022-12-28T18:59:36+01:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://andy-sb.com/tags/</loc>
     <lastmod>2022-12-28T18:59:36+01:00</lastmod>
   </url><url>
-    <loc>/tags/test/</loc>
+    <loc>https://andy-sb.com/tags/test/</loc>
     <lastmod>2022-12-28T18:59:36+01:00</lastmod>
   </url><url>
-    <loc>/tags/yes-it-works/</loc>
+    <loc>https://andy-sb.com/tags/yes-it-works/</loc>
     <lastmod>2022-12-28T18:59:36+01:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://andy-sb.com/categories/</loc>
   </url>
 </urlset>

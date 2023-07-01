@@ -5,12 +5,12 @@
     
     
     
-    <link>/categories/</link>
+    <link>https://andy-sb.com/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andy-sb.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

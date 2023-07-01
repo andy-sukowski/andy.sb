@@ -5,21 +5,21 @@
     
     
     
-    <link>/</link>
+    <link>https://andy-sb.com/</link>
     <description>Recent content in /home/andy on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Dec 2022 19:44:42 +0100</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://andy-sb.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My XMR address</title>
-      <link>/xmr/</link>
+      <link>https://andy-sb.com/xmr/</link>
       <pubDate>Fri, 16 Jun 2023 19:43:54 +0200</pubDate>
       
-      <guid>/xmr/</guid>
+      <guid>https://andy-sb.com/xmr/</guid>
       <description>
         
           
@@ -37,10 +37,10 @@ Dynamic block sizes ensure low transaction fees, the RandomX proof-of-work algor
     
     <item>
       <title>My public PGP key</title>
-      <link>/pgp/</link>
+      <link>https://andy-sb.com/pgp/</link>
       <pubDate>Tue, 23 May 2023 16:07:53 +0100</pubDate>
       
-      <guid>/pgp/</guid>
+      <guid>https://andy-sb.com/pgp/</guid>
       <description>
         
           
@@ -58,10 +58,10 @@ Dynamic block sizes ensure low transaction fees, the RandomX proof-of-work algor
     
     <item>
       <title>Just a Test</title>
-      <link>/posts/just-a-test/</link>
+      <link>https://andy-sb.com/posts/just-a-test/</link>
       <pubDate>Wed, 28 Dec 2022 18:59:36 +0100</pubDate>
       
-      <guid>/posts/just-a-test/</guid>
+      <guid>https://andy-sb.com/posts/just-a-test/</guid>
       <description>
         
           

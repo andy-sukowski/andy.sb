@@ -1,7 +1,7 @@
 {{ if and (.Get "href") (.Get "src") (.Get "name") (.Get "desc") }}
   <div class="repo">
     <a class="repo-link" href="{{ .Get "href" | safeURL }}">
-      <img alt="IMG" class="repo-img" src="{{ .Get "src" | safeURL }}" width="58" height="58">
+      <img alt="IMG" class="repo-img" src="{{ .Get "src" | safeURL }}" width="50" height="50">
       <div class="repo-info">
         <h4 class="repo-name">{{ .Get "name" | plainify }}</h4>
       <p class="repo-desc">{{ .Get "desc" | plainify }}</p>
