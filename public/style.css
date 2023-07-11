@@ -1,5 +1,9 @@
 @import "syntax.css";
 
+.content {
+	margin-bottom: 0;
+}
+
 blockquote, p, ul, .post-content:not(.js-file-line-container) {
 	text-align: justify;
 	hyphens: auto;

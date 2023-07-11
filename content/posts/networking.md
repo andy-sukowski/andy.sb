@@ -3,7 +3,7 @@ title: "Networking cheat sheet"
 date: 2023-07-01T21:18:16+02:00
 tags: ["networking", "c", "linux"]
 author: "Andy Sukowski-Bang"
-description: "This cheat sheet is based on Beej's Guide to Network Programming and summarizes the basics of network programming in C using `<sys/socket.h>`."
+description: "This cheat sheet is based on [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html) and summarizes the basics of network programming in C using `<sys/socket.h>`. I have uploaded an example [`server.c`](networking/server.c) and [`client.c`](networking/client.c) programm if you want to have a look."
 ---
 
 This cheat sheet is based on [Beej's Guide to Network Programming][1] 
@@ -40,7 +40,7 @@ the `sa_data` by hand.
 ### `struct sockaddr_in` - parallel structure for IPv4
 
 To deal with `struct sockaddr`, programmers created a parallel structure:
-`struct sockaddr_in` (_in_ for Internet) to be used with IPv4
+`struct sockaddr_in` (_in_ for Internet) to be used with IPv4.
 
 ```c
 /* IPv4 only - see `struct sockaddr_in6` for IPv6 */
@@ -161,23 +161,17 @@ numbers-and-dots notation? In this case, you'll want to use the function
 
 ```c
 /* IPv4 */
-
 char ip4[INET_ADDRSTRLEN]; /* space to hold the IPv4 string         */
 struct sockaddr_in sa;     /* pretend this is loaded with something */
-
 inet_ntop(AF_INET, &(sa.sin_addr), ip4, INET_ADDRSTRLEN);
-
 printf("The IPv4 address is: %s\n", ip4);
 
 
 /* IPv6 */
-
 char ip6[INET6_ADDRSTRLEN]; /* space to hold the IPv6 string         */
 struct sockaddr_in6 sa6;    /* pretend this is loaded with something */
-
 inet_ntop(AF_INET6, &(sa6.sin6_addr), ip6, INET6_ADDRSTRLEN);
-
-printf("The address is: %s\n", ip6);
+printf("The IPv6 address is: %s\n", ip6);
 ```
 
 ### `getaddrinfo()` - prepare to launch
@@ -359,6 +353,9 @@ of the following:
 | `0` | further recieves are disallowed           |
 | `1` | further sends are disallowed              |
 | `2` | further sends and recieves are disallowed |
+
+Again, you can have a look at this example [`server.c`][2] and [`client.c`][3]
+programm, that I've uploaded.
 
 [1]: https://beej.us/guide/bgnet/html
 [2]: server.c

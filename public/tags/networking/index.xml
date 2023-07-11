@@ -28,7 +28,7 @@
         
         
         
-          This cheat sheet is based on Beej&#39;s Guide to Network Programming and summarizes the basics of network programming in C using `&lt;sys/socket.h&gt;`.
+          This cheat sheet is based on [Beej&#39;s Guide to Network Programming](https://beej.us/guide/bgnet/html) and summarizes the basics of network programming in C using `&lt;sys/socket.h&gt;`. I have uploaded an example [`server.c`](networking/server.c) and [`client.c`](networking/client.c) programm if you want to have a look.
           
         
         </description>
