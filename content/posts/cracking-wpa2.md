@@ -1,5 +1,5 @@
 ---
-title: "Cracking Wpa2"
+title: "Cracking WPA2"
 date: 2023-07-11T12:36:55+02:00
 tags: ["pentesting", "linux"]
 author: "Andy Sukowski-Bang"
@@ -55,7 +55,7 @@ reauthenticate. Without this step, it might take some time to capture the
 handshake.
 
 ```
-# aireplay-ng --deauth 0 -a E0:28:6D:F3:B6:5D wlp3s0mon
+# aireplay-ng --deauth 0 -a <BSSID> wlp3s0mon
 ```
 
 ## Crack password
