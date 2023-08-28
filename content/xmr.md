@@ -1,6 +1,8 @@
 ---
 title: "My XMR address"
 date: 2023-06-16T19:43:54+02:00
+description: "This is my public Monero (XMR) address. You can find the PGP signed XMR address in RAW format at [andy-sb.com/xmr.txt][/xmr.txt]."
+
 ---
 
 ## What is Monero?

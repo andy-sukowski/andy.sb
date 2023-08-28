@@ -1,6 +1,7 @@
 ---
 title: "My public PGP key"
 date: 2023-05-23T16:07:53+01:00
+description: "This is my RSA-4096 public PGP key for the email address [`contact@andy-sb.com`](mailto:contact@andy-sb.com). If you want to contact me privately, encrypt your message with the public key and I will be the only person able to decrypt it using my private key."
 ---
 
 This is my RSA-4096 public PGP key for the email address
