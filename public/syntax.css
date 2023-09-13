@@ -99,8 +99,8 @@
 
 /* ----- LIGHT THEME ----- */
 
-/* Background */               .light-theme .bg { background-color: #fafafa; }
-/* PreWrapper */               .light-theme .chroma { background-color: #fafafa; }
+/* Background */               .light-theme .bg { background-color: #f0f0f0; }
+/* PreWrapper */               .light-theme .chroma { background-color: #f0f0f0; }
 /* Error */                    .light-theme .chroma .err { color: #a61717 }
 /* LineHighlight */            .light-theme .chroma .hl { background-color: #ffffcc }
 /* LineNumbersTable */         .light-theme .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
@@ -159,11 +159,11 @@
 /* Operator */                 .light-theme .chroma .o { color: #728e00 }
 /* OperatorWord */             .light-theme .chroma .ow { color: #728e00 }
 /* Punctuation */              .light-theme .chroma .p {  }
-/* Comment */                  .light-theme .chroma .c { color: #95a5a6 }
-/* CommentHashbang */          .light-theme .chroma .ch { color: #95a5a6 }
-/* CommentMultiline */         .light-theme .chroma .cm { color: #95a5a6 }
-/* CommentSingle */            .light-theme .chroma .c1 { color: #95a5a6 }
-/* CommentSpecial */           .light-theme .chroma .cs { color: #95a5a6 }
+/* Comment */                  .light-theme .chroma .c { color: #7e8b8c }
+/* CommentHashbang */          .light-theme .chroma .ch { color: #7e8b8c }
+/* CommentMultiline */         .light-theme .chroma .cm { color: #7e8b8c }
+/* CommentSingle */            .light-theme .chroma .c1 { color: #7e8b8c }
+/* CommentSpecial */           .light-theme .chroma .cs { color: #7e8b8c }
 /* CommentPreproc */           .light-theme .chroma .cp { color: #728e00 }
 /* CommentPreprocFile */       .light-theme .chroma .cpf { color: #728e00 }
 /* Generic */                  .light-theme .chroma .g {  }
