@@ -34,7 +34,7 @@ compile programs) and finally to Void Linux. I've used Gnome, KDE, qtile, i3 and
 now DWM from [suckless.org][6]. My workflow is primarily command-line based, so I
 frequently use Neovim, ffmpeg, ImageMagick, GnuPG, [pass][7] and the *nix coreutils.
 
-{{< image src="/img/linux_system.png" alt="Void Linux with DWM, LunarVim, HTOP and neofetch, Gruvbox Material theme" desc="Void Linux with DWM using Gruvbox Material" >}}
+{{< image src="/img/linux_system.webp" alt="Void Linux with DWM, LunarVim, HTOP and neofetch, Gruvbox Material theme" desc="Void Linux with DWM using Gruvbox Material" >}}
 
 [1]: https://www.uni-kiel.de
 [2]: /cv.pdf
