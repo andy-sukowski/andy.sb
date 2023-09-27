@@ -83,3 +83,18 @@ h1:before, h2:before, h3:before, h4:before, h5:before, h6:before {
 	margin-left: 6px;
 	width: 8px;
 }
+
+.header {
+	padding: 0;
+}
+
+.header__inner {
+	width: 800px;
+	padding: 20px;
+}
+
+@media (max-width: 900px) {
+	.header__inner {
+		max-width: 660px;
+	}
+}

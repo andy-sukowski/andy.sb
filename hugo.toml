@@ -24,9 +24,12 @@ paginate = 5
   [[params.social]]
     name = "stackoverflow"
     url  = "https://stackoverflow.com/users/14947044"
+  # [[params.social]]
+  #   name = "mastodon"
+  #   url  = "https://mastodon.online/@andy_sb"
   [[params.social]]
-    name = "mastodon"
-    url  = "https://mastodon.online/@andy_sb"
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/andy-sb"
   [[params.social]]
     name = "spotify"
     url  = "https://open.spotify.com/user/nosocaxwx7ima5bdi9uelhxga"
