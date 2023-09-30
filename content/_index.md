@@ -25,6 +25,7 @@ free.
 {{< repository href="https://gitlab.com/andy-sb/steg" src="/img/repo/steg.webp" name="Steganography" desc="A steganography tool enabling you to conceal any file within a PNG file." >}}
 {{< repository href="https://gitlab.com/andy-sb/calc" src="/img/repo/calc.webp" name="Calculator" desc="An arithmetic calculator, which parses mathematical expressions specified in infix notation using the shunting-yard algorithm." >}}
 {{< repository href="https://gitlab.com/andy-sb/brain" src="/img/repo/brain.webp" name="Brainfuck Interpreter" desc="A simple interpreter for the brainfuck programming language, written in C." >}}
+{{< repository href="https://gitlab.com/andy-sb/waves" src="/img/repo/waves.webp" name="Wave Simulator" desc="An n-dimensional wave simulator, written in Julia." >}}
 
 ## My Linux Setup
 
