@@ -22,6 +22,7 @@ free.
 
 {{< repository href="https://gitlab.com/andy-sb/cnn" src="/img/repo/cnn.webp" name="Convolutional Neural Network" desc="An n-dimensional convolutional neural network (CNN), written from scratch in Julia." >}}
 {{< repository href="https://gitlab.com/andy-sb/nn" src="/img/repo/nn.webp" name="Neural Network" desc="A simple artificial neural network, specifically a multilayer perceptron (MLP), written from scratch in Julia." >}}
+{{< repository href="https://gitlab.com/andy-sb/ffn" src="/img/repo/ffn.webp" name="Fourier Feature Network" desc="An n-dimensional Fourier feature network, written in Julia using Flux.jl." >}}
 {{< repository href="https://gitlab.com/andy-sb/steg" src="/img/repo/steg.webp" name="Steganography" desc="A steganography tool enabling you to conceal any file within a PNG file." >}}
 {{< repository href="https://gitlab.com/andy-sb/calc" src="/img/repo/calc.webp" name="Calculator" desc="An arithmetic calculator, which parses mathematical expressions specified in infix notation using the shunting-yard algorithm." >}}
 {{< repository href="https://gitlab.com/andy-sb/brain" src="/img/repo/brain.webp" name="Brainfuck Interpreter" desc="A simple interpreter for the brainfuck programming language, written in C." >}}
