@@ -56,7 +56,7 @@ paginate = 5
   [languages.en.params]
     languageName = "English"
     title = "Andy Sukowski-Bang"
-    subtitle = "Student & Programmer"
+    subtitle = "Math Major & Programmer"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
