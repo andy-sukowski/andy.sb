@@ -7,4 +7,4 @@ I'm using the [noJS theme][3] as well as some [custom shortcodes][4].
 [1]: https://andy.sb
 [2]: https://gohugo.io
 [3]: https://git.andy.sb/nojs
-[4]: /layouts/shortcodes
+[4]: /layouts/_shortcodes
