@@ -1,14 +1,14 @@
 ---
 title: "/home/andy"
 date: 2022-12-28
-description: "I’m Andy Sukowski-Bang, studying pure mathematics and computer science at the Kiel University (Germany), with a particular interest in algebraic topology, machine learning, cryptography and decentralized networking. In my free time I go bouldering, play electric guitar or develop software in Julia, Haskell and C (check out my GitLab)."
+description: "I’m Andy Sukowski-Bang, studying pure mathematics and computer science at the Christian-Albrecht University of Kiel (Germany), with a particular interest in algebraic topology, category theory and machine learning. In my free time I go bouldering, play electric guitar or develop software in Julia, Haskell and C."
 ---
 
 I’m Andy Sukowski-Bang, studying pure mathematics and computer science at the
-[Christian-Albrecht University of Kiel][1] (Germany), with a particular interest in
-algebraic topology, machine learning, cryptography and decentralized
-networking. In my free time I go bouldering, play electric guitar or develop
-software in Julia, Haskell and C (check out [my résumé][2] and [my GitLab][3]).
+[Christian-Albrecht University of Kiel][1] (Germany), with a particular
+interest in algebraic topology, category theory and machine learning.
+In my free time I go bouldering, play electric guitar or develop software in
+Julia, Haskell and C (check out [my résumé][2] and [my GitLab][3]).
 
 <style>
   .social-icons {
@@ -95,6 +95,13 @@ free.
     src="/img/repo/waves.webp"
     name="Wave Simulator"
     desc="n-dimensional wave simulator, written in Julia."
+>}}
+
+{{< repository
+    href="https://git.andy.sb/nojs"
+    src="/img/repo/nojs.webp"
+    name="noJS Hugo theme"
+    desc="A minimal, no-JavaScript theme for the Hugo static site generator. This website uses the noJS theme."
 >}}
 
 ## My Linux Setup
