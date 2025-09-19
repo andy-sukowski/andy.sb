@@ -1,6 +1,6 @@
 ---
 title: "Networking cheat sheet"
-date: 2023-07-01T21:18:16+02:00
+date: 2023-07-01
 tags: ["networking", "c", "linux"]
 author: "Andy Sukowski-Bang"
 description: "This cheat sheet is based on [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html) and summarizes the basics of network programming in C using `<sys/socket.h>`. I have uploaded an example [`server.c`](networking/server.c) and [`client.c`](networking/client.c) programm if you want to have a look."

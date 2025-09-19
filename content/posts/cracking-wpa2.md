@@ -1,6 +1,6 @@
 ---
 title: "Cracking WPA2"
-date: 2023-07-11T12:36:55+02:00
+date: 2023-07-11
 tags: ["pentesting", "linux"]
 author: "Andy Sukowski-Bang"
 description: "This short tutorial walks you through cracking WPA2 networks which use pre-shared keys using the [aircrack-ng](https://www.aircrack-ng.org) suite of tools to assess WI-FI network security. All of the necessary tools come preinstalled with the [Kali Linux](https://www.kali.org) distribution."

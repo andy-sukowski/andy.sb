@@ -1,0 +1,51 @@
+.repo {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  color: inherit;
+}
+
+.repo:not(:last-of-type) {
+  border-bottom: 1px solid var(--fg2);
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.repo:hover {
+  text-decoration: none;
+}
+
+.repo:hover h4 {
+  text-decoration: underline;
+}
+
+.repo img {
+  width: auto;
+  flex: none;
+  border: 1px solid;
+  margin-left: 1px;
+}
+
+.repo div,
+.repo h4,
+.repo p {
+  overflow: hidden;
+}
+
+.repo div {
+  flex: 1;
+}
+
+.repo h4,
+.repo p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.repo h4 {
+  margin: 0;
+}
+
+.repo p {
+  margin: 0.15rem 0 0;
+}

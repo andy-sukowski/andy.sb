@@ -1,7 +1,0 @@
-<div {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }}>
-  {{- with $.Site.Params.social }}
-    <div style="text-align: center;">
-      {{ partial "social-icons.html" . }}
-    </div>
-  {{- end }}
-</div>

@@ -1,15 +1,15 @@
 ---
 title: "My public PGP key"
-date: 2023-05-23T16:07:53+01:00
-description: "This is my RSA-4096 public PGP key for the email address [`contact@andy-sb.com`](mailto:contact@andy-sb.com). If you want to contact me privately, encrypt your message with the public key and I will be the only person able to decrypt it using my private key."
+date: 2023-05-23
+description: "This is my RSA-4096 public PGP key for the email address [`me@andy.sb`](mailto:me@andy.sb). If you want to contact me privately, encrypt your message with the public key and I will be the only person able to decrypt it using my private key."
 ---
 
 This is my RSA-4096 public PGP key for the email address
-[`contact@andy-sb.com`][1]. If you want to contact me privately, encrypt your
+[`me@andy.sb`][1]. If you want to contact me privately, encrypt your
 message with the public key and I will be the only person able to decrypt it
 using my private key.
 
-<pre style="height: 28rem; margin: 2rem 0;" tabindex="0">
+<pre style="height: 28rem; margin: 2rem 0; overflow: scroll;" tabindex="0">
 <code>-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGF7CGcBEADUTFsJ+cNo+83XyaTDvDyxorljK/e2j5N2YZ5/7qK3Q+7+evyk
@@ -103,7 +103,7 @@ CigIr0D5KZ+X29c/zWcKO9n2xrpwKg==
 -----END PGP PUBLIC KEY BLOCK-----</code>
 </pre>
 
-It is also available in RAW format at [andy-sb.com/pgp.txt][2] and can be cross
+It is also available in RAW format at [andy.sb/pgp.txt][2] and can be cross
 checked with [my PGP key on GitLab][3] and the [keys.openpgp.org][4] keyserver.
 If the fingerprints don't match, something is wrong... This is the fingerprint:
 
@@ -111,7 +111,7 @@ If the fingerprints don't match, something is wrong... This is the fingerprint:
 A81D 2A5B 7CC3 7DB5 F14C  A98F 04E1 ED4E BE8C 85EA
 ```
 
-[1]: mailto:contact@andy-sb.com
+[1]: mailto:me@andy.sb
 [2]: /pgp.txt
-[3]: https://gitlab.com/andy-sb.gpg
+[3]: https://gitlab.com/andy.sb.gpg
 [4]: https://keys.openpgp.org

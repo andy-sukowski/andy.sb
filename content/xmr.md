@@ -1,7 +1,7 @@
 ---
 title: "My XMR address"
-date: 2023-06-16T19:43:54+02:00
-description: "This is my public Monero (XMR) address. You can find the PGP signed XMR address in RAW format at [andy-sb.com/xmr.txt][/xmr.txt]."
+date: 2023-06-16
+description: "This is my public Monero (XMR) address. You can find the PGP signed XMR address in RAW format at [andy.sb/xmr.txt][/xmr.txt]."
 
 ---
 
@@ -21,7 +21,7 @@ the [P2Pool][7] sidechain enables decentralized pool mining without fees.
 
 I don’t know why you would, but I'm definitely not complaining. Here is my
 public Monero (XMR) address. You can find the PGP signed XMR address in RAW
-format at [andy-sb.com/xmr.txt][8].
+format at [andy.sb/xmr.txt][8].
 
 ```
 83tmLoa1NWZMK15MyFT5BgGNcQRCfSBqzQekHoLxnQVEUKxcHzN44YP3jdB5ommmBmHA2yJB9zzVxiTmt3BNHB5hGh6ntmh

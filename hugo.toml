@@ -1,88 +1,43 @@
-baseurl = "https://andy-sb.com"
-languageCode = "en-us"
-theme = "hello-friend"
-paginate = 5
-
-[params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
-  # Enable to show reading time in minutes for posts
-  showReadingTime = false
-
-  # Social icons
-  [[params.social]]
-    name = "email"
-    url  = "mailto:contact@andy-sb.com"
-  [[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/andy-sb"
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/andy-sukowski"
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://stackoverflow.com/users/14947044"
-  # [[params.social]]
-  #   name = "mastodon"
-  #   url  = "https://mastodon.online/@andy_sb"
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/andy-sb"
-  [[params.social]]
-    name = "spotify"
-    url  = "https://open.spotify.com/user/nosocaxwx7ima5bdi9uelhxga"
+baseURL = 'https://andy.sb'
+languageCode = 'en-us'
+title = "Andy Sukowski-Bang"
+theme = 'nojs'
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]']]
+          inline = [['\(', '\)']]
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
-    anchorLineNos = true
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ''
-    hl_inline = false
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = false
     noClasses = false
-    noHl = false
-    #style = 'github-dark'
 
-[languages]
-  [languages.en.params]
-    languageName = "English"
-    title = "Andy Sukowski-Bang"
-    subtitle = "Math Major & Programmer"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 1
 
-    [params.logo]
-      logoText = "cd ~/"
-      logoHomeLink = "/"
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 2
 
-    [menu]
-      [[menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/posts"
-      [[menu.main]]
-        identifier = "pgp"
-        name = "PGP"
-        url = "/pgp"
-      [[menu.main]]
-        identifier = "xmr"
-        name = "XMR"
-        url = "/xmr"
+  [[menus.main]]
+    name = 'PGP'
+    pageRef = '/pgp'
+    weight = 3
+
+  [[menus.main]]
+    name = 'XMR'
+    pageRef = '/xmr'
+    weight = 4
+
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 5

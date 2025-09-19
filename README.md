@@ -1,10 +1,10 @@
-# My website - andy-sb.com
+# My website - andy.sb
 
-[andy-sb.com][1] is my personal homepage/blog, built using the static
-site generator [Hugo][2]. I'm using a slightly modified version of the
-[hello-friend][3] theme as well as some [custom shortcodes][4].
+[andy.sb][1] is my personal homepage/blog, built using the static site
+generator [Hugo][2].
+I'm using the [noJS theme][3] as well as some [custom shortcodes][4].
 
-[1]: https://andy-sb.com
+[1]: https://andy.sb
 [2]: https://gohugo.io
-[3]: https://github.com/panr/hugo-theme-hello-friend
+[3]: https://git.andy.sb/nojs
 [4]: /layouts/shortcodes
