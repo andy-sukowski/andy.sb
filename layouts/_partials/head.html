@@ -5,6 +5,7 @@
 {{- if .Description }}
   <meta name="description" content="{{ .Description | plainify }}">
 {{- end }}
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 {{- $styles := slice "css/vars.css" "css/syntax.css" "css/main.css" "css/nav.css" "css/repo.css" -}}
 {{- range $styles }}
