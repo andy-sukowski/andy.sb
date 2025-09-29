@@ -36,8 +36,3 @@ theme = 'nojs'
     name = 'XMR'
     pageRef = '/xmr'
     weight = 4
-
-  [[menus.main]]
-    name = 'Tags'
-    pageRef = '/tags'
-    weight = 5
