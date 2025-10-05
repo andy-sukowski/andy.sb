@@ -7,7 +7,7 @@
 {{- end }}
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-{{- $styles := slice "css/vars.css" "css/syntax.css" "css/main.css" "css/nav.css" "css/repo.css" -}}
+{{- $styles := slice "css/vars.css" "css/syntax.css" "css/main.css" "css/nav.css" "css/repo.css" "css/fonts.css" -}}
 {{- range $styles }}
   {{- with resources.Get . }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
