@@ -48,7 +48,7 @@ BookmarkLevel: 3
 BookmarkPageNumber: 31</code>
 </pre>
 
-I wanted a simpler syntax for specifying the outline.
+I wanted a simpler syntax for specifying the outline (indent with tabs).
 
 ```
 1 Chapter 1
@@ -68,39 +68,38 @@ I wrote the following [Haskell][2] program, which parses my simple syntax using 
 
 module Main where
 
+import Data.List (intercalate)
 import System.Environment (getArgs, getProgName)
 import System.Exit (die)
 import Text.Parsec
-import Text.Parsec.String (Parser)
+import Text.Parsec.String (Parser, parseFromFile)
 
 data Bookmark = Bookmark
-    { title :: String,
-      level :: Int,
-      page  :: Int }
+  Int    -- ^ Level
+  Int    -- ^ Page
+  String -- ^ Title
 
 tree :: Parser [Bookmark]
-tree = many line <* skipMany endOfLine <* eof
+tree = bookmark `sepEndBy` endOfLine <* eof
   where
-    line =
-      (\tabs page title -> Bookmark title (length tabs + 1) (read page))
-        <$> many (char '\t')
-        <*> many1 digit <* space
-        <*> manyTill anyChar (() <$ endOfLine <|> eof)
+    bookmark = Bookmark <$> level <*> page <*> title
+    level    = (+1) . length <$> many tab
+    page     = read <$> many1 digit <* space
+    title    = many (noneOf "\n")
 
 pdftk :: [Bookmark] -> String
-pdftk = unlines . concatMap render
+pdftk = intercalate "\n" . fmap render
   where
-    render (Bookmark title level page) =
+    render (Bookmark level page title) = unlines
       [ "BookmarkBegin"
       , "BookmarkTitle: "      ++ title
       , "BookmarkLevel: "      ++ show level
-      , "BookmarkPageNumber: " ++ show page
-      , "" ]
+      , "BookmarkPageNumber: " ++ show page ]
 
 main :: IO ()
 main = getArgs >>= \case
-    [f] -> readFile f >>= either print (putStr . pdftk) . parse tree f
-    _   -> getProgName >>= \pn -> die $ "Usage: " ++ pn ++ " <file>"
+  [f] -> parseFromFile tree f >>= either print (putStr . pdftk)
+  _   -> getProgName >>= die . ("Usage: " ++) . (++ " <file>")
 ```
 
 I admit that using Haskell is a bit overkill and [AWK][4] would suffice.
