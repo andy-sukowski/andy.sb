@@ -1,7 +1,7 @@
 ---
 title: "Neural Network Gradients"
 date: 2025-10-17
-tags: ["ai", "math"]
+tags: ["ai", "mathematics"]
 author: "Andy Sukowski-Bang"
 description: "This is a cheat sheet of forward passes and gradients for common neural network layer types: dense layer, convolutional layer, LSTM, Softmax. Everything is written in index form rather than vectorized notation to keep the barrier to entry low."
 ---
