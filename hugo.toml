@@ -1,5 +1,5 @@
 baseURL = 'https://andy.sb'
-languageCode = 'en-us'
+locale = 'en-us'
 title = "Andy Sukowski-Bang"
 theme = 'nojs'
 
