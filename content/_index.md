@@ -1,14 +1,13 @@
 ---
 title: "/home/andy"
 date: 2022-12-28
-description: "I’m Andy Sukowski-Bang, studying pure mathematics and computer science at the Christian-Albrecht University of Kiel (Germany), with a particular interest in algebraic topology, category theory and machine learning. In my free time I go bouldering, play electric guitar or develop software in Julia, Haskell and C."
+description: "I’m Andy Sukowski-Bang, studying pure mathematics and computer science at Kiel University (Germany), with a particular interest in higher category theory, algebraic topology, and machine learning. I'm currently writing my master's thesis under the supervision of Denis-Charles Cisinski. In my free time, I go bouldering, play electric guitar or program in Julia, Haskell, C and JAX."
 ---
 
-I’m Andy Sukowski-Bang, studying pure mathematics and computer science at the
-[Christian-Albrecht University of Kiel][cau] (Germany), with a particular
-interest in algebraic topology, category theory and machine learning.
-In my free time I go bouldering, play electric guitar or develop software in
-Julia, Haskell and C (check out [my résumé][cv] and [my GitLab][gitlab]).
+I’m Andy Sukowski-Bang, studying pure mathematics and computer science at [Kiel University][cau] (Germany),
+with a particular interest in higher category theory, algebraic topology, and machine learning.
+I'm currently writing my master's thesis under the supervision of [Denis-Charles Cisinski][cisinski].
+In my free time, I go bouldering, play electric guitar or program in Julia, Haskell, C and [JAX][jax] (check out [my résumé][cv] and [my GitLab][gitlab]).
 
 <style>
   .social-icons {
@@ -48,7 +47,16 @@ Julia, Haskell and C (check out [my résumé][cv] and [my GitLab][gitlab]).
   </a>
 </div>
 
-## My Projects
+## Research
+
+* [**Colimits of Enriched Categories**](/posts/colimits-of-enriched-categories/),
+  A. Sukowski-Bang, 2026, [arXiv:2607.07780](https://arxiv.org/abs/2607.07780).
+
+  _Abstract._
+  We introduce categories of strings to give an explicit hom-object formula for [colimits][colimit] of [enriched categories][V-Cat].
+  As corollaries, we recover the [necklace construction][necklace] by Dugger and Spivak and describe colimits in [\(\mathrm{Cat}\)][Cat] and of [Lawvere metric spaces][lawvere].
+
+## Programming
 
 I have uploaded most of my personal projects to [my GitLab][gitlab] and
 mirrored them to [my GitHub][github].
@@ -125,6 +133,13 @@ ffmpeg, ImageMagick, GnuPG, [pass][7] and the *nix coreutils.
 
   [cau]: https://www.uni-kiel.de
   [cv]: /cv.pdf
+  [cisinski]: https://cisinski.app.uni-regensburg.de/
+  [jax]: https://docs.jax.dev/en/latest/
+  [colimit]: https://ncatlab.org/nlab/show/colimit
+  [V-Cat]: https://ncatlab.org/nlab/show/category+of+V-enriched+categories
+  [necklace]: https://arxiv.org/abs/0910.0814
+  [Cat]: https://ncatlab.org/nlab/show/Cat
+  [lawvere]: https://ncatlab.org/nlab/show/metric+space#LawvereMetricSpace
   [gitlab]: https://gitlab.com/andy.sb
   [github]: https://github.com/andy-sukowski
   [xmr]: /xmr

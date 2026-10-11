@@ -21,7 +21,7 @@ Two mathematically simple rearrangements avoid materializing these projections a
 Recall [ordinary attention][attention], which trains a query matrix \(W^Q\), a key matrix \(W^K\) and a value matrix \(W^V\).
 Cross-attention takes as input a primary sequence \(x_1, \dots, x_m\) and a secondary sequence \(y_1, \dots, y_n\),
 which coincide in self-attention.
-The query \(q_i\), key \(k_j\) and value \(v_j\) arise as matrix-vector products
+The queries \(q_i\), keys \(k_j\) and values \(v_j\) arise as matrix-vector products
 
 \[
   q_i \coloneqq W^Q x_i, \quad
@@ -144,7 +144,7 @@ class RelationAwareAttention(nnx.Module):
 
         alpha = jax.nn.softmax(c, axis=-1)
 
-        z_nodes = jnp.einsum('...mn,...nd->...md', alpha, v)
+        z_nodes = jnp.einsum('...mn,...nv->...mv', alpha, v)
         s = jnp.einsum('...hmn,...mne->...hme', alpha, edges)
         z_edges = self.edge_value(s)
 
